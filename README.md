@@ -3,7 +3,7 @@ This is a project i built using Javascript and Bootstrap. The project is a stren
 
 The website will provide workout plans for purchase including upper body, lower body and full body workouts. 
 
-The need for strength training for BJJ athletes are immensely important to avoid injury and increase longevity in the game.
+The need for strength training for BJJ athletes is immensely important to avoid injury and increase longevity in the game.
 
 Images used on the site is licenced from Dreamstime.com.
 
