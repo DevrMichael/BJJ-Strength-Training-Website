@@ -1,0 +1,35 @@
+.shouldersTopSection{
+    display: flex;
+    width: 90vw;
+    margin: 5em auto;
+}
+.topShouldersLeftDiv{
+    width: 50%;
+    margin: auto;
+}
+.topShouldersRightDiv{
+    width: 40%;
+    margin: auto;
+}
+#shoulderImage{
+    width: 40vw;
+}
+.bottomShouldersSection{
+    height: 50vh;
+    width: 100vw;
+    background-color: gray;
+}
+.bottomShouldersSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.muscleInfo{
+    width: 90vw;
+}
+#muscleDetails{
+    color: white;
+    list-style: none;
+    font-weight: 300;
+}

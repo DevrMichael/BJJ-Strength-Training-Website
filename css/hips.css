@@ -1,0 +1,35 @@
+.hipsTopSection{
+    display: flex;
+    width: 90vw;
+    margin: 5em auto;
+}
+.topHipsLeftDiv{
+    width: 50%;
+    margin: auto;
+}
+.topHipsRightDiv{
+    width: 40%;
+    margin: auto;
+}
+#hipImage{
+    width: 40vw;
+}
+.bottomHipsSection{
+    height: 50vh;
+    width: 100vw;
+    background-color: gray;
+}
+.bottomHipsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.muscleInfo{
+    width: 90vw;
+}
+#muscleDetails{
+    color: white;
+    list-style: none;
+    font-weight: 300;
+}

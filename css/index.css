@@ -1,0 +1,197 @@
+.topDiv{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    border-radius: 22px;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Detail Section*/
+.detailSection{
+    display: flex;
+    height: 85vh;
+}
+.detailsDiv{
+    width: 50vw;
+}
+.detailsImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.detailsImage img{
+    width: 70%;
+    border-radius: 10%;
+}
+
+/* Benefits Section*/
+.benefitsSection{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f6fa;
+}
+.benefitsSection h1{
+    padding: 1em !important;
+}
+
+/* Muscle Types Section*/
+.muscleTypesSection{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    padding-top: 10em;
+}
+.muscleTypesSection a{
+    color: white;
+}
+.muscleTypesSection a:hover{
+    text-decoration: none;
+}
+#iconsText{
+    display: flex;
+    width: 50vw;
+    margin: 2em auto;
+    justify-content: center;
+    color: black;
+}
+.muscleTypeDivs{
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+}
+.muscleTypeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2em;
+    width: 27vw;
+    height: 37vh;
+    background-color: purple;
+    margin: auto;
+    color: white;
+    -webkit-box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48); 
+box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
+}
+.muscleTypeDiv img{
+    width: 50%;
+    padding-bottom: 1em;
+}
+.muscleTypeDivWhite{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2em;
+    width: 25vw;
+    height: 33vh;
+    background-color: white;
+    margin: auto;
+    color: black;
+    -webkit-box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48); 
+box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
+}
+.muscleTypeDivWhite img{
+    width: 50%;
+    padding-bottom: 1em;
+}
+.muscleTypeBtn{
+    width: 80%;
+}
+
+/* Who Trains Section*/
+.whoTrainsSection{
+    background-color: #353535;
+}
+.whoTrainsMainDiv{
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.whoTrainsSection p{
+    color: white;
+    font-weight: 200;
+}
+.whoTrainsSection h5{
+    color: white;
+    font-weight: 300;
+}
+
+.buyPlanSection{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .grid-text{
+      text-align: left;
+      font-size: 15px;
+      line-height: 2em;
+      width: 70%;
+      margin: auto;
+  }
+  .grid-header{
+    border-bottom: 1px solid rgba(189, 3, 196, 0.8);
+  }
+  .grid-middle{
+    border-left: 1px solid rgba(189, 3, 196, 0.8);
+    border-right: 1px solid rgba(189, 3, 196, 0.8);
+  }
+  .price{
+      color: purple;
+      font-weight: 600;
+  }
+
+/* Color dividers across the site, represents the BJJ belt colors */
+.colorDividerBlue{
+    width: 100vw;
+    height: 1vh;
+    background-color: blue;
+    position: sticky;
+}
+.colorDividerPurple{
+    width: 100vw;
+    height: 1vh;
+    background-color: purple;
+}
+.colorDividerBrown{
+    width: 100vw;
+    height: 1vh;
+    background-color: brown;
+}
+.colorDividerBlack{
+    width: 100vw;
+    height: 1vh;
+    background-color: black;
+}

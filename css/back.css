@@ -1,0 +1,35 @@
+.backTopSection{
+    display: flex;
+    width: 90vw;
+    margin: 5em auto;
+}
+.topBackLeftDiv{
+    width: 50%;
+    margin: auto;
+}
+.topBackRightDiv{
+    width: 40%;
+    margin: auto;
+}
+#backImage{
+    width: 40vw;
+}
+.bottomBackSection{
+    height: 50vh;
+    width: 100vw;
+    background-color: gray;
+}
+.bottomBackSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.muscleInfo{
+    width: 90vw;
+}
+#muscleDetails{
+    color: white;
+    list-style: none;
+    font-weight: 300;
+}

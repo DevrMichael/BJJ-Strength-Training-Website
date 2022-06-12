@@ -1,0 +1,35 @@
+.legsTopSection{
+    display: flex;
+    width: 90vw;
+    margin: 5em auto;
+}
+.topLegsLeftDiv{
+    width: 50%;
+    margin: auto;
+}
+.topLegsRightDiv{
+    width: 40%;
+    margin: auto;
+}
+#legImage{
+    width: 40vw;
+}
+.bottomLegsSection{
+    height: 50vh;
+    width: 100vw;
+    background-color: gray;
+}
+.bottomLegsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.muscleInfo{
+    width: 90vw;
+}
+#muscleDetails{
+    color: white;
+    list-style: none;
+    font-weight: 300;
+}
