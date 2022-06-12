@@ -5,6 +5,8 @@ The website will provide workout plans for purchase including upper body, lower 
 
 The need for strength training for BJJ athletes are immensely important to avoid injury and increase longevity in the game.
 
+Images used on the site is licenced from Dreamstime.com.
+
 # Contact  
 If you have questions, ideas or suggestions, please contact me @siddiqimichael@gmail.com.
 
