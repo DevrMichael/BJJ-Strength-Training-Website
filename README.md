@@ -1,5 +1,5 @@
 # BJJ Strength Training Website
-This is a project i built using Javascript and Bootstrap. The project is a strength training website for Brazilian Jiu Jitsu practitioners.
+This is a project that I built using Javascript and Bootstrap. The project is a strength training website for Brazilian Jiu Jitsu practitioners.
 
 The website will provide workout plans for purchase including upper body, lower body and full body workouts. 
 
