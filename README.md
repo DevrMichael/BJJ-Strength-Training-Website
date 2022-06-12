@@ -7,6 +7,10 @@ The need for strength training for BJJ athletes are immensely important to avoid
 
 Images used on the site is licenced from Dreamstime.com.
 
+# Why this site?
+
+There seemed to be a gap in leading knowledge when it comes to specific strength training for BJJ. I wanted to build a resource that BJJ athletes could utilize to improve their game and reduce injury-risk.
+
 # Contact  
 If you have questions, ideas or suggestions, please contact me @siddiqimichael@gmail.com.
 
