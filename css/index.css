@@ -243,13 +243,13 @@ box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
         width: 100vw;
     }
     .grid-container{
+        display: grid;
         padding: 0;
         width: 90vw;
         margin: auto;
   }
   .grid-header h5{
       font-size: 1em;
-      color: pink;
   }
   .grid-text{
       font-size: 0.8em;
