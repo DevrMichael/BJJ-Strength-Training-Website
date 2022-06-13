@@ -43,3 +43,10 @@ footer p{
     justify-content: center;
     align-items: center;
 }
+
+/* Media Queries */
+@media all and (max-width: 620px) {
+    li{
+      margin: 1em 1em;
+    }
+  }
