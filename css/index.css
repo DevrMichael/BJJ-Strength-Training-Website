@@ -159,7 +159,7 @@ box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 2em;
     font-size: 16px;
     text-align: center;
   }
@@ -177,6 +177,7 @@ box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
     border-left: 1px solid rgba(189, 3, 196, 0.8);
     border-right: 1px solid rgba(189, 3, 196, 0.8);
   }
+  
   .price{
       color: purple;
       font-weight: 600;
@@ -203,4 +204,59 @@ box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
     width: 100vw;
     height: 1vh;
     background-color: black;
+}
+
+/* Media Queries */
+@media all and (max-width: 620px){
+    .detailSection{display: block;}
+    .detailsDiv{
+        width: 100vw;
+    }
+    .detailsImage{
+        width: 100vw;
+        padding-bottom: 2em;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 850px){
+    .muscleTypesSection{
+        width: 100vw;
+    }
+    .muscleTypesSection p{
+        width: 90%;
+        margin: auto;
+    }
+    .muscleTypeBtn{
+        font-size: 0.9em;
+    }
+    .muscleTypeDiv{
+        height: 26vh;
+    }
+    .muscleTypeDivWhite{
+        height: 23vh;
+    }
+}
+
+@media all and (max-width: 620px){
+    .buyPlanSection{
+        width: 100vw;
+    }
+    .grid-container{
+        padding: 0;
+        width: 90vw;
+        margin: auto;
+  }
+  .grid-header h5{
+      font-size: 1em;
+      color: pink;
+  }
+  .grid-text{
+      font-size: 0.8em;
+      width: 100%;
+      line-height: 2.3em;
+  }
+  .grid-item button{
+      font-size: 0.9em;
+  }
 }
