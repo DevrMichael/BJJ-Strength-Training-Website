@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2, 
+h3,
+p{
+    margin: 0;
+}
 .topDiv{
     height: 80vh;
     width: 100vw;
@@ -29,13 +40,12 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 50vw
 }
 .detailsImage img{
     width: 70%;
     border-radius: 10%;
 }
-
 /* Benefits Section*/
 .benefitsSection{
     display: flex;
@@ -259,4 +269,15 @@ box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
   .grid-item button{
       font-size: 0.9em;
   }
+}
+
+@media all and (max-width: 500px){
+    .topDiv{
+        text-align: center;
+    }
+}
+@media all and (max-width: 500px){
+    .benefitsSection ul{
+        width: 100%;
+    }
 }
