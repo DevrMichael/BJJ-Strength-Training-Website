@@ -19,6 +19,7 @@ p{
 }
 button{
     border-radius: 22px;
+    margin: 2em 0;
     padding: 0.5em 1em;
     color: white;
     background-color: blueviolet;
@@ -28,19 +29,34 @@ ul{
     list-style-type: none;
 }
 
+/* Random Fun Fact JSON Section*/
+.funFactSection{
+    height: 20vh;
+    background-color: #9b59b6;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.funFactSection h4{
+    color: white;
+}
+
 /* Detail Section*/
 .detailSection{
     display: flex;
 }
+.detailsSection > *{
+    flex-basis: 100%;
+}
 .detailsDiv{
-    width: 50vw;
     padding-left: 1em;
+    padding-bottom: 1em;
 }
 .detailsImage{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw
 }
 .detailsImage img{
     width: 70%;
@@ -99,7 +115,7 @@ ul{
     margin: auto;
     color: white;
     -webkit-box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48); 
-box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
+    box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
 }
 .muscleTypeDiv img{
     width: 50%;
@@ -117,7 +133,7 @@ box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
     margin: auto;
     color: black;
     -webkit-box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48); 
-box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
+    box-shadow: 2px 3px 11px 4px rgba(49,49,49,0.48);
 }
 .muscleTypeDivWhite img{
     width: 50%;
